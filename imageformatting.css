@@ -1,0 +1,91 @@
+.thumbnails img {height: 64px;
+		width: 120px;
+		padding: 1px;
+		}
+		
+.thumbnails img:hover	{border: 1px solid black;
+			cursor: pointer;
+			}
+			
+.preview img	{border: 4px solid black;
+		padding: 1px;
+		width: 500px;
+		height: 250px;
+		}
+		
+.thumbnails2 img {height: 64px;
+		width: 120px;
+		padding: 1px;
+		}
+		
+.thumbnails2 img:hover	{border: 1px solid black;
+			cursor: pointer;
+			}
+			
+.preview2 img	{border: 4px solid black;
+		padding: 1px;
+		width: 500px;
+		height: 250px;
+		}
+	
+.thumbnails3 img {height: 64px;
+		width: 120px;
+		padding: 1px;
+		}
+		
+.thumbnails3 img:hover	{border: 1px solid black;
+			cursor: pointer;
+			}
+			
+.preview3 img	{border: 4px solid black;
+		padding: 1px;
+		width: 500px;
+		height: 250px;
+		}
+		
+img.losangeleslogo	{width: 200px;
+			height: 50px;
+			}
+		
+img.historymap	{width: 640px;
+		height: 250px;
+		border: 5px solid black;
+		float: center;
+		}
+		
+img.cultureMusic	{width: 526.05px;
+			height: 350px;
+			}
+img.cultureArt		{width: 525px;
+			height: 376.25px;
+			}
+img.cultureFilm		{width: 523.07px;
+			height: 293.85px;
+			}
+img.cultureFashion	{width: 522.33px;
+			height: 360px;
+			}
+			
+img.calendar	{width: 1108.8px;
+		height: 758.1px;
+			}
+			
+img.fourseasons	{width: 480px;
+		height: 182.25px;
+		}
+		
+img.ritzcarlton	{width: 500px;
+		height: 333.33px;
+		}
+		
+img.omni	{width: 496px;
+		height: 280px;
+		}
+		
+img.terranea	{width: 465px;
+		height: 210px;
+		}
+			
+img.montage	{width: 480px;
+		height: 300px;
+		}

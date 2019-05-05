@@ -1,0 +1,228 @@
+body	{
+	font-family: Verdana , Arial , Tahoma;
+	}
+		
+body.homepage {
+    background-image: url("pics/headerpics/LosAngelesHomePageHeader.jpg");
+    background-repeat:no-repeat;
+}
+
+body.history {
+    background-image: url("pics/headerpics/LosAngelesHistoryHeader.png");
+    background-repeat:no-repeat;
+}
+
+body.culture {
+    background-image: url("pics/headerpics/LosAngelesCultureHeader.jpg");
+    background-repeat:no-repeat;
+}
+
+body.events {
+    background-image: url("pics/headerpics/LosAngelesEventsHeader.jpg");
+    background-repeat:no-repeat;
+}
+
+body.tourism {
+    background-image: url("pics/headerpics/LosAngelesTourismHeader.jpg");
+    background-repeat:no-repeat;
+}
+
+body.resorts {
+    background-image: url("pics/headerpics/LosAngelesResortsHeader.jpg");
+    background-repeat:no-repeat;
+}
+
+
+
+blockquote {
+	font-style: italic;
+}
+
+form	{
+	width: 100%;
+	}
+	
+legend		{
+		align: center;
+		color:#fff;
+		background: black;
+		border: 1px solid #781351;
+		padding: 2px 6px;
+		}
+		
+input		{color: #781351;
+		background: lightblue;
+		border: 1px solid black;
+		}
+		
+.submit input	{margin-left: 0.5em;
+		color: black;
+		background: white;
+		border: 5px outset #d7b9c9;
+		}
+
+body.homepage hr	{	 
+			border-style: solid;
+   			border-width: 1.5px;
+   			align: center;
+   			width: 95%;
+			}
+iframe.historyvideo	{
+		width: 560px;
+		height: 315px;
+		align: right;
+		border-width: 3px;
+		}
+		
+iframe.historytimeline	{
+		width: 1200px;
+		height: 900px;
+		align: center;
+		border-width: 3px;
+		overflow-x: hidden; 
+    		overflow-y: hidden;
+		}
+
+
+p.introduction {
+    font-size: 20px;
+}
+
+h1 {
+	font-family: Tahoma;
+    font-size: 30px;
+}
+
+details	{
+	font-family: Arial;
+    	font-size: 20px;
+    	color: #778899;
+}
+
+details.disclaimer	{
+	font-family: Arial;
+    	font-size: 20px;
+    	color: red;
+}
+
+ul.navbar	{list-style-type:none;
+		width: 1200px;
+		margin: 0px auto;
+		}
+		
+ul.navbar li	{float:left;
+		font-size:20px;
+		text-decoration: underline;
+		}
+		
+a.navbar:link, a.navbar:visited {display:block;
+				width: 175px;
+				font-weight: bold;
+				color: #000000;
+				background-color: #FFFFFF;
+				text-align: center;
+				padding: 8px;
+				text-decoration:none;
+				text-transform: uppercase;
+				font-family: Trebuchet MS;
+				}
+				
+a.navbar:hover, a.navbar:active {border: 8px solid black;
+				background-color: #fff;
+				}
+				
+img.nav		{width: 25%;}
+
+table	{font-family: Verdana , Arial , Tahoma;
+	border-style: solid;
+	border-width: 4px;
+	border-color: black;
+	width: 100%;
+	cell-spacing: 0px;
+	}
+	
+table.cultureTable tr	{background: #757F9A;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	}
+	
+table.resortsTable tr	{background: #FF8008;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	}
+table.assortedResorts tr {background: #ECE9E6;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	}
+			
+td    {padding: 6px;
+	text-align: justify;}
+	
+tr	{background-color: white;
+	}
+	
+table.introduction tr	{background: #1c92d2;  /* fallback for old browsers */
+   			 background: -webkit-linear-gradient(to left, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+   			 background: linear-gradient(to left, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			}
+						
+td.currentevents	{background: #1c92d2;  /* fallback for old browsers */
+   			 background: -webkit-linear-gradient(to left, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+   			 background: linear-gradient(to left, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 			 width: 75%;
+			}
+			
+td.news			{background: #fffc00;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #ffffff, #fffc00);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #ffffff, #fffc00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			width: 25%;
+			}
+td.lightbluegradient	{background: #C9D6FF;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			}
+			
+td.resortsintroduction	{background-color: #FFFFB2;
+			}
+tr.tourism	{background: #FFAFBD;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			}		
+
+			
+.menu	{width: 600px;
+	position: absolute;
+	background: #fff;
+	left: -750px;
+	margin-left: 50px;
+	transition: all .3s ease-in-out;
+	}
+	
+.menu-icon	{padding: 10px 20px;
+		background: #fff;
+		color: #000000;
+		cursor: pointer;
+		float: right;
+		margin: 6px 6px 0 0;
+		}
+		
+#menuToggle	{display:none;}
+
+#menuToggle:checked ~ .menu	{position: absolute;
+				left: 0;
+				}
+						
+.backtotop	{width: 20%;
+		height: 8%;
+		margin-left: 45.5%;
+		margin-top: 2%;
+		background-image: url(pics/iconspics/backtotop.png);
+		background-size: 110px 52.5px;
+		background-repeat: no-repeat;
+		}
+		
+.backtotop a	{width: 110px;
+		height: 55px;
+		display: block;
+		}
